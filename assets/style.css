@@ -92,6 +92,7 @@ html {
     width: 26%;
     top: -87%;
     left: -2%;
+    filter: hue-rotate(-43deg);
 }
 
 .section-header {
