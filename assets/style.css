@@ -104,6 +104,8 @@ html {
     line-height: 1.5;
 }
 
+/* Nav */
+
 #nav {
     height: 100px;
     display: flex;
@@ -162,8 +164,6 @@ html {
 .nav-content-left:hover {
     background-color: #ccc;
 }
-
-/* img */
 
 .grad-img-large {
     position: absolute;
@@ -253,12 +253,13 @@ html {
     padding: 0 !important;
 }
 
-/* Item layout */
-
 .section-head {
     margin-bottom: 50px;    
     width: 58%;
 }
+
+
+/* Item layout */
 
 .item-list {
     position: relative;
@@ -299,7 +300,6 @@ html {
     line-height: 1.4;
 }
 
-
 .left-col {
     display: flex;
     flex-direction: column;
@@ -310,7 +310,6 @@ html {
     flex-direction: column;
     margin-top: 48px;
 }
-
 
 .img5-small {
     position: absolute;
@@ -331,7 +330,7 @@ html {
     transform: rotate(43deg)
 }
 
-/* Course section */
+/* Course */
 
 #course-section {
     position: relative;
@@ -375,42 +374,6 @@ html {
     margin-bottom: 24px;
 }
 
-.grad-img-course {
-    position: absolute;
-    width: 400px;
-    top: -5%;
-    transform: rotate(33deg);
-    right: -44%;
-}
-
-/* consult */
-
-#consult-section {
-    position: relative;
-    margin-top: 80px;
-}
-
-.img6 {
-    position: absolute;
-    transform: rotate(124deg);
-    right: -136%;
-    top: 12%;
-}
-
-.grad-consult {
-    height: 500px;
-    width: 500px;
-    position: absolute;
-    border-radius: 36px;
-    background-image: linear-gradient(to right, #b796ff, #5973fe);
-    z-index: -1;
-    right: -113%;
-    top: 28%;
-    transform: rotate(38deg);
-}
-
-/* Comment */
-
 .course-list {
     position: relative;
     display: flex;
@@ -443,8 +406,41 @@ html {
     margin-left: 12px;
     margin-bottom: 24px;
 }
+.grad-img-course {
+    position: absolute;
+    width: 400px;
+    top: -5%;
+    transform: rotate(33deg);
+    right: -44%;
+}
 
-/* Feedback section */
+/* Consult */
+
+#consult-section {
+    position: relative;
+    margin-top: 80px;
+}
+
+.img6 {
+    position: absolute;
+    transform: rotate(124deg);
+    right: -136%;
+    top: 12%;
+}
+
+.grad-consult {
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    border-radius: 36px;
+    background-image: linear-gradient(to right, #b796ff, #5973fe);
+    z-index: -1;
+    right: -113%;
+    top: 28%;
+    transform: rotate(38deg);
+}
+
+/* Feedback */
 
 #feedback-section {
     margin: 0px 100px 32px 140px; 
@@ -723,12 +719,11 @@ html {
 }
 
 .modal-btn {
-        margin: 0 !important;
-        /* font-size: 16px; */
-        padding: 14px;
-        line-height: 14px;
-        height: fit-content;
-        width: 100%;
+    margin: 0 !important;
+    padding: 14px;
+    line-height: 14px;
+    height: fit-content;
+    width: 100%;
 }
 .modal-btn:hover {
     padding: 15px 14px;
@@ -803,7 +798,6 @@ html {
 
     .item-list {
         width: 100%;
-        /* justify-content:space-around; */
         gap: 30px;
     }
     .column-item {
